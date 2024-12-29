@@ -1,0 +1,22 @@
+{
+  "registeredUsers": [
+    {
+      "id": "9365",
+      "email": "siddharth19082002@gmail.com",
+      "password": "1234",
+      "profipic": "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+      "id": "aa5c",
+      "email": "siddharth.rameshe@pec.edu",
+      "password": "Siddhu",
+      "profipic": "https://img.freepik.com/premium-photo/round-circle-with-mans-head-circle-with-circle-middle_807814-680.jpg"
+    },
+    {
+      "id": "de70",
+      "email": "abcd123445@gmail.com",
+      "password": "12345",
+      "profipic": "https://wallpapers.com/images/hd/cute-aesthetic-profile-pictures-1200-x-1600-pjfl391j3q0f7rlz.jpg"
+    }
+  ]
+}

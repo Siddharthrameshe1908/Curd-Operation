@@ -1,0 +1,25 @@
+{
+  "candidate": [
+    {
+      "firstname": "Siddharth",
+      "lastname": "R",
+      "age": "21",
+      "city": "Puducherry",
+      "id": "b516"
+    },
+    {
+      "id": "9543",
+      "firstname": "Siddhu",
+      "lastname": "Rameshe",
+      "age": "22",
+      "city": "Puducherry"
+    },
+    {
+      "id": "818c",
+      "firstname": "Neela",
+      "lastname": "Ramola",
+      "age": "22",
+      "city": "Guntur"
+    }
+  ]
+}

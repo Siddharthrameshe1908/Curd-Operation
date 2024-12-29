@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 8vh;
+    width: 100%;
+    background-color: #5dacbd;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    position: sticky;
+    top: 0px;
+    color: white;
+}
+
+.regilogin{ 
+    display: flex;
+    gap: 30px;
+}
+
+
+.sidebar{
+    display: flex;
+}
+
+.layout{
+    width: 15%;
+    height: 200vh;
+    background-color: #5dacbd;
+}
+
+.layout ul li{
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+.layout ul li a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.userBlock{
+    margin: 50px;
+}
+
+.container table{
+    border-collapse: collapse;
+    background-color: #e3f6f5;
+    height: 300px;
+    width: 800px;
+}
+
+.container h1{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+tr,td,th{
+    border: 2px solid cadetblue;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    font-size: 20px;
+}
+
+td{
+    font-size: 18px;
+}
+
+table th{
+    color: darkblue;
+}
+
+.content{
+    margin: 100px 0px 0px 400px;
+    width: 450px;
+    padding: 10px;
+}
+
+.content h1{
+    color: #5dacbd;
+    font-size: large;
+}
+
+.innercontent h1{
+    color: #5dacbd;
+    font-size: large;
+    font-weight: bold;
+}
+
+.form-group label{
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.form-group input{
+    border-bottom: 1px solid #5dacbd;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-group input:focus{
+    outline: none;
+    border-bottom: 1px solid #5dacbd;
+}
+
+.form-group button{
+    border-radius: 5px;
+    background-color: cadetblue;
+    margin-top: 25px;
+    padding: 10px;
+    color: white;
+}
+
+.form-group button:hover{
+    color: black;
+}
+
+.searchBlock{
+    border-bottom: 1px solid #5dacbd;
+    display: flex;
+    height: max-content;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0px 50px 400px;
+    padding: 5px;
+    width: 350px;
+}
+
+.searchBlock input{
+    border: transparent;
+    height: 100%;
+    width: 100%;
+    font-size:  20px;
+}
+
+.searchBlock input:focus{
+    outline: none;
+}
+
+.displayuser{
+    border: 1px solid lightseagreen;
+    border-radius: 10px;
+    box-shadow: 5px 6px;
+    height: max-content;
+    /* width: 25%; */
+    margin-left: 400px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #9fd3c7;
+    /* text-align: center; */
+}
+
+.displayuser:hover{
+    transform: translate(-2px,-5px);
+}
+
+.displayuser span{
+    font-weight: bold;
+}
+
+
+.registeredusers{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.userslist{
+    border: 1px solid #5dacbd;
+    background-color: #e3f6f5;
+    height: 250px;
+    width: 600px;
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.userslist h1{
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.userslist img{
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+}
+
+.logoutbtn {
+    margin-left: 90px;
+    margin-bottom: 26px;
+
+}
